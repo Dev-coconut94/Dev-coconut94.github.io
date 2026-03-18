@@ -1,15 +1,15 @@
 {
   "notices": [
     {
-      "title": "AI 레포 기반 포트폴리오 이관",
-      "summary": "기존 공개 Pages를 AI 저장소 안의 개인 포트폴리오 구조로 옮기고 브랜드와 공개 경로를 다시 정리했습니다.",
+      "title": "private 원본과 public 포트폴리오 분리",
+      "summary": "작업 원본은 비공개 저장소에 유지하고, 공개 사이트와 다운로드 허브는 별도 public Pages 저장소로 분리했습니다.",
       "date": "2026-03-18",
       "status": "배포 중",
       "category": "Migration",
       "badge": "NEW",
-      "eyebrow": "이관 작업",
-      "right_meta": "AI Pages",
-      "cta_label": "프로젝트 구조 보기",
+      "eyebrow": "구조 개편",
+      "right_meta": "Public Pages",
+      "cta_label": "프로젝트 보러 가기",
       "path": "projects/"
     },
     {
@@ -64,7 +64,7 @@
       "eyebrow": "실행 파일",
       "right_meta": "GitHub Release",
       "cta_label": "ZIP 받기",
-      "external_url": "https://github.com/Dev-coconut94/AI/releases/download/v2026.03.17.165338/naverworks-hr-extractor-latest.zip"
+      "external_url": "https://github.com/Dev-coconut94/Dev-coconut94.github.io/releases/download/v2026.03.17.165338/naverworks-hr-extractor-latest.zip"
     }
   ],
   "notes": [
