@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev-coconut94 Portfolio Notes</title>
+  <meta name="description" content="작업 기록과 운영 메모를 정리하는 노트 섹션">
+  <meta name="theme-color" content="#f2f4f6">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body data-site-root="../" data-content-index-url="../data/content-index.json">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="Dev-coconut94 Portfolio 홈">
+        <span class="brand-mark">Dev-coconut94 Portfolio</span>
+        <span class="brand-sub">개인 포트폴리오와 프로젝트 허브</span>
+      </a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a class="nav-link" href="../">홈</a>
+        <a class="nav-link" href="../projects/">프로젝트</a>
+        <a class="nav-link" href="../downloads/">다운로드</a>
+        <a class="nav-link is-active" href="./">노트</a>
+      </nav>
+    </header>
+
+    <main class="page-stack">
+      <section class="hero-layout">
+        <div class="hero-panel">
+          <span class="section-label">Notes</span>
+          <h1 class="hero-title">배포 기록과 운영 메모를 차곡차곡 쌓아 갈 공간</h1>
+          <p class="hero-copy">
+            노트 섹션은 개발 회고보다 운영 과정과 배포 메모를 중심으로 정리할 예정입니다. 프로젝트와 같은 정보 구조를
+            유지하되 글 목록에 더 어울리는 밀도로 확장할 수 있도록 설계했습니다.
+          </p>
+        </div>
+        <aside class="hero-side">
+          <div class="summary-card">
+            <div class="summary-card__label">준비 방향</div>
+            <div class="summary-card__value">운영 기록</div>
+            <p class="summary-card__copy">무엇을 왜 바꿨는지와 다음 단계가 자연스럽게 이어지는 글 흐름을 목표로 합니다.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-card" aria-labelledby="notes-list-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label section-label--muted">노트 목록</span>
+            <h2 class="section-title" id="notes-list-title">앞으로 쌓일 기록</h2>
+          </div>
+        </div>
+        <div class="list-stack" data-render="list" data-collection="notes"></div>
+      </section>
+
+      <section class="section-card" aria-labelledby="notes-note-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label section-label--muted">정리 메모</span>
+            <h2 class="section-title" id="notes-note-title">노트에 담을 내용</h2>
+          </div>
+        </div>
+        <div class="detail-grid">
+          <div class="note-card">
+            <div class="note-card__title">배포 배경</div>
+            <p class="note-card__copy">왜 이 버전을 냈는지와 어떤 문제를 풀었는지를 짧고 선명하게 남길 수 있도록 구성합니다.</p>
+          </div>
+          <div class="note-card">
+            <div class="note-card__title">운영 메모</div>
+            <p class="note-card__copy">인수인계, 배포 체크포인트, 다음 개선 후보까지 같은 흐름에서 관리할 수 있게 할 예정입니다.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>

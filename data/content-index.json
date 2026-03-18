@@ -1,0 +1,84 @@
+{
+  "notices": [
+    {
+      "title": "AI 레포 기반 포트폴리오 이관",
+      "summary": "기존 공개 Pages를 AI 저장소 안의 개인 포트폴리오 구조로 옮기고 브랜드와 공개 경로를 다시 정리했습니다.",
+      "date": "2026-03-18",
+      "status": "배포 중",
+      "category": "Migration",
+      "badge": "NEW",
+      "eyebrow": "이관 작업",
+      "right_meta": "AI Pages",
+      "cta_label": "프로젝트 구조 보기",
+      "path": "projects/"
+    },
+    {
+      "title": "개인 포트폴리오 브랜딩 정리",
+      "summary": "공개 노출명은 Dev-coconut94 Portfolio 로 통일하고, 개인 포트폴리오와 프로젝트 허브 성격을 전면에 두었습니다.",
+      "date": "2026-03-18",
+      "status": "운영 중",
+      "category": "Brand",
+      "badge": "Portfolio",
+      "eyebrow": "브랜딩",
+      "right_meta": "개인 허브",
+      "cta_label": "홈 보기",
+      "path": "./"
+    }
+  ],
+  "projects": [
+    {
+      "title": "네이버웍스 입퇴사 추출기",
+      "summary": "브라우저 연동, 연간 수집, 엑셀 출력, 배포 허브까지 정리된 사무 자동화 프로젝트입니다.",
+      "date": "2026-03-17",
+      "status": "운영 중",
+      "category": "Automation",
+      "badge": "대표",
+      "eyebrow": "프로젝트",
+      "right_meta": "브라우저 연동 + 연간 수집",
+      "cta_label": "프로젝트 상세 보기",
+      "featured": true,
+      "path": "projects/naverworks-hr-extractor/"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "네이버웍스 입퇴사 추출기 다운로드",
+      "summary": "최신 버전, 릴리스 노트, 다운로드 버튼을 한 화면에서 확인하는 전용 배포 허브입니다.",
+      "date": "2026-03-18",
+      "status": "배포 중",
+      "category": "Download",
+      "badge": "Hub",
+      "eyebrow": "배포 허브",
+      "right_meta": "릴리스 노트 포함",
+      "cta_label": "다운로드 허브 보기",
+      "featured": true,
+      "path": "downloads/naverworks-hr-extractor/"
+    },
+    {
+      "title": "최신 ZIP 다운로드",
+      "summary": "현재 배포 중인 네이버웍스 입퇴사 추출기 최신 ZIP 자산입니다.",
+      "date": "2026-03-17",
+      "status": "배포 중",
+      "category": "Release",
+      "badge": "ZIP",
+      "eyebrow": "실행 파일",
+      "right_meta": "GitHub Release",
+      "cta_label": "ZIP 받기",
+      "external_url": "https://github.com/Dev-coconut94/AI/releases/download/v2026.03.17.165338/naverworks-hr-extractor-latest.zip"
+    }
+  ],
+  "notes": [
+    {
+      "title": "작업 기록 공간 준비",
+      "summary": "배포 메모, 운영 노트, 다음 개선 후보를 개인 포트폴리오 안에서 읽기 쉬운 글 흐름으로 남길 예정입니다.",
+      "date": "2026-03-18",
+      "status": "준비 중",
+      "category": "Notes",
+      "badge": "Soon",
+      "eyebrow": "기록",
+      "right_meta": "운영 메모",
+      "cta_label": "노트 보기",
+      "path": "notes/"
+    }
+  ]
+}

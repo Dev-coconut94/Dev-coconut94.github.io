@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dev-coconut94 Portfolio Projects</title>
+  <meta name="description" content="개인 포트폴리오에 공개된 프로젝트 목록">
+  <meta name="theme-color" content="#f2f4f6">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="has-bottom-cta" data-site-root="../" data-content-index-url="../data/content-index.json">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="Dev-coconut94 Portfolio 홈">
+        <span class="brand-mark">Dev-coconut94 Portfolio</span>
+        <span class="brand-sub">개인 포트폴리오와 프로젝트 허브</span>
+      </a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a class="nav-link" href="../">홈</a>
+        <a class="nav-link is-active" href="./">프로젝트</a>
+        <a class="nav-link" href="../downloads/">다운로드</a>
+        <a class="nav-link" href="../notes/">노트</a>
+      </nav>
+    </header>
+
+    <main class="page-stack">
+      <section class="hero-layout">
+        <div class="hero-panel">
+          <span class="section-label">Projects</span>
+          <h1 class="hero-title">개별 프로젝트를 설명이 쉬운 리스트 구조로 모아 보는 공간</h1>
+          <p class="hero-copy">
+            개인 포트폴리오에 공개하는 프로젝트를 대표 카드와 리스트 행으로 함께 정리합니다. 사용자는 빠르게 훑을 수 있고,
+            자세히 보고 싶은 프로젝트는 상세 페이지와 다운로드 허브로 바로 이동할 수 있습니다.
+          </p>
+          <div class="button-row">
+            <a class="button button--primary" href="./naverworks-hr-extractor/">대표 프로젝트 보기</a>
+            <a class="button button--secondary" href="../downloads/">다운로드 허브 열기</a>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <div class="summary-card">
+            <div class="summary-card__label">대표 항목</div>
+            <div class="summary-card__value">네이버웍스 입퇴사 추출기</div>
+            <p class="summary-card__copy">현재 공개된 대표 프로젝트는 브라우저 연동과 연간 수집 흐름을 함께 갖춘 사무 도구입니다.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-card" aria-labelledby="projects-featured-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label section-label--muted">대표 카드</span>
+            <h2 class="section-title" id="projects-featured-title">가장 먼저 보여 줄 프로젝트</h2>
+          </div>
+        </div>
+        <div data-render="featured" data-collection="projects"></div>
+      </section>
+
+      <section class="section-card" aria-labelledby="projects-list-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label section-label--muted">프로젝트 목록</span>
+            <h2 class="section-title" id="projects-list-title">추가 프로젝트가 들어올 자리</h2>
+            <p class="section-head__copy">대표 항목 아래에는 동일한 ListRow 패턴으로 프로젝트를 계속 쌓을 수 있습니다.</p>
+          </div>
+        </div>
+        <div class="list-stack" data-render="list" data-collection="projects" data-skip-featured="true" data-empty-message="대표 프로젝트 외의 추가 항목은 아직 준비되지 않았습니다."></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="bottom-cta" aria-label="모바일 하단 행동">
+    <a class="bottom-cta__button" href="./naverworks-hr-extractor/">대표 프로젝트 보기</a>
+  </div>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>

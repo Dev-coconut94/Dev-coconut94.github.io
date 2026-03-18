@@ -1,0 +1,5 @@
+네이버웍스 입퇴사 추출기 릴리스 노트
+
+- GitHub Pages 경로를 AI/downloads/naverworks-hr-extractor 로 이관
+- GitHub Release 자산 소유권을 AI 저장소 기준으로 정리
+- 개인 포트폴리오 허브 안에서 프로젝트와 다운로드 흐름을 연결
